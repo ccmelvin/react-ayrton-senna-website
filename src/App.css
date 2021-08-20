@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,700&display=swap");
+
+:root {
+  /* Main Colors */
+  --main-light-color: #fcfcfc;
+  --main-gray-color: #d4d4d8;
+  --main-dark-color: #323232;
+  --main-emerald-color: #064e3b;
+  --main-teal-color: #6ee7b7;
+  --main-yellow-color: #fef08a;
+  --main-pink-color: #ec4899;
+  --main-bg-color: #065f46;
+  --main-hover-color: #fde047;
+  --main-active-color: #065f46;
+
+  /* Secondary Colors */
+  --secondary-bg-color: #064e3b;
+  --secondary-text-color: #fcfcfc;
+  --secondary-btn-color: #2ba280;
+  --secondary-hover-color: #ffed93;
+  --secondary-active-color: #415c54;
+
+  /* Nav Colors */
+  --nav-bg-color: #242424;
+  --nav-large-color: #064e3b;
+  --nav-text-color: #e5f7f4;
+  --nav-hover-color: #fde047;
+
+  /* Button Colors */
+  --btn-bg-color: #468a78;
+  --btn-text-color: #edebeb;
+  --btn-hover-color: #fde047;
+  --btn-active-color: #5b746c;
+
+  /* Footer Colors */
+  --footer-bg-color: #064e3b;
+  --footer-text-color: #e5f7f4;
+  --footer-hover-color: #fde047;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Serif", serif;
+}
+html,
+body {
+  overflow-x: hidden;
+}
