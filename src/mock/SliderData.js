@@ -1,4 +1,4 @@
-import ImageOne from "../images/ayrton-senna-photo-profile.jpg";
+import ImageOne from "../images/ayrton-senna-car-track.jpg";
 import ImageTwo from "../images/ayrton-senna-and-drivers.jpg";
 import ImageThree from "../images/ayrton-senna-helmet-face.jpg";
 import ImageFour from "../images/ayrton-senna-car-brazil-flag.jpg";

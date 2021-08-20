@@ -3,19 +3,22 @@ import { Button } from "../Buttons/Button";
 
 import {
   Section,
-  Container,
+  InfoContainer,
   ColumnLeft,
   ColumnRight,
 } from "../InfoSection/InfoSectionStyle";
 
 const InfoSection = ({
+  id,
   heading,
+  description,
   paragraphOne,
   paragraphTwo,
   paragraphThree,
   buttonLabel,
   reverse,
   image,
+  lightBg
 }) => {
   const [hover, setHover] = useState(false);
 
@@ -24,10 +27,11 @@ const InfoSection = ({
   };
   return (
     <>
-      <Section id="home">
-        <Container>
-          <ColumnLeft>
+      <Section id={id} lightBg={lightBg}>
+        <InfoContainer>
+          <ColumnLeft reverse={reverse}>
             <h1> {heading} </h1>
+            <p>{description}</p>
             <p> {paragraphOne} </p> <p> {paragraphTwo} </p>
             <p>{paragraphThree}</p>
             <Button
@@ -47,7 +51,7 @@ const InfoSection = ({
           <ColumnRight reverse={reverse}>
             <img src={image} alt="home" />
           </ColumnRight>
-        </Container>
+        </InfoContainer>
       </Section>
     </>
   );

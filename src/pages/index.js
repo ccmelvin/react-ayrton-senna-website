@@ -8,6 +8,7 @@ import { InfoData } from '../mock/InfoData'
 import { InfoDataTwo } from '../mock/InfoData'
 import ScrollToTop from '../components/ScrollToTop'
 import Footer from '../components/Footer/Footer'
+import { FoundationData } from '../mock/Foundation'
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -25,6 +26,7 @@ const Home = () => {
             <Hero slides={sliderData} />
             <InfoSection {...InfoData} />
             <InfoSection {...InfoDataTwo} />
+            <InfoSection {...FoundationData} />
             <Footer />
         </Fragment>
     )

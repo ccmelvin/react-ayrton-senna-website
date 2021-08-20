@@ -16,20 +16,22 @@ export const InfoData = {
   image: ImageOne,
   path: "/home",
   reverse: false,
-  delay: 100
+  delay: 100,
+  lightBg: true,
 };
 export const InfoDataTwo = {
   heading: "Ayrton Senna do Brasil",
   paragraphOne:
-    "Duis velit anim consequat laborum sunt duis do magna. Laboris labore voluptate laborum laboris qui ea ipsum. Lorem aute est incididunt cillum incididunt qui sint veniam commodo cillum eu. Id mollit amet do magna sit dolore eu elit enim pariatur amet occaecat labore anim. Aliqua ea cillum cupidatat ipsum occaecat duis consequat in. Non consequat irure pariatur consequat nostrud sit veniam.Exercitation dolore cupidatat consequat officia laboris non id duis veniam mollit. Culpa labore consequat ipsum qui do. Ea id nulla consequat exercitation nisi culpa esse ad aute. Et ea mollit labore elit nostrud elit irure cupidatat pariatur deserunt voluptate ut reprehenderit in.",
+    "Senna won a race in a car that was practically without brakes",
 
   paragraphTwo:
-    "Duis velit anim consequat laborum sunt duis do magna.  Lorem aute est incididunt cillum incididunt qui sint veniam commodo cillum eu. Id mollit amet do magna sit dolore eu elit enim pariatur amet occaecat labore anim. Aliqua ea cillum cupidatat ipsum occaecat duis consequat in. Non consequat irure pariatur consequat nostrud sit veniam.Exercitation dolore cupidatat consequat officia laboris non id duis veniam mollit. Culpa labore consequat ipsum qui do. Ea id nulla consequat exercitation nisi culpa esse ad aute.",
+    "True. First, it’s worth mentioning that it would be impossible to control a race car whose brakes had given out completely. But in Snetterton, England, during the 1982 Formula Ford championship, Senna did something that even the most experienced mechanics would deem improbable.After starting in the first place, as usual, the Brazilian found out he had brake problems when trying to slow down to avoid debris from a crash that took place in the first lap. Senna ended up losing a few places and had to adapt to a new driving style.In the end, Senna managed to regain the lead and reached the checkered flag using only the rear brakes. He had to stop his car at the track’s first corner, close to the pit-lane entrance. After the race, the driver told what had happened, and the mechanics confirmed his front brake discs were cold, meaning the Brazilian really hadn’t used them.",
   buttonLabel: 'Read More',
   image: ImageTwo,
   path: "/foundation",
   reverse: true,
-  delay: 200
+  delay: 200,
+  lightBg: false,
 };
 export const InfoDataThree = {
   heading: "Ayrton Senna do Brasil",
@@ -41,6 +43,9 @@ export const InfoDataThree = {
   buttonLabel: 'Read More',
   image: ImageThree,
   path: "/foundation",
-  reverse: true,
-  delay: 200
+  reverse: false,
+  delay: 100,
+  lightBg: true,
 };
+
+
